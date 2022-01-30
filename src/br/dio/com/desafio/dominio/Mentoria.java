@@ -6,28 +6,16 @@ import java.time.LocalDate;
  * @autor: Bruno Teles
  * @version: 1.0
  */
-public class Mentoria {
-    private String titulo;
-    private String descricao;
+public class Mentoria extends Conteudo{
+
     private LocalDate data;
 
+    @Override
+    public double caucularXP() {
+        return XP_PADRAO + 20d;
+    }
+
     public Mentoria() {
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public String getTitulo() {
-        return titulo;
-    }
-
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
     }
 
     public LocalDate getData() {
@@ -40,9 +28,10 @@ public class Mentoria {
 
     @Override
     public String toString() {
-        return "Mentoria{" +
-                "titulo='" + titulo + '\'' +'\'' +
-                ", data=" + data +
+        return "Curso{" +
+                "titulo= '" + getTitulo() + '\'' +
+                ", descricao= '" + getDescricao() + '\'' +
+                ", data= " + data +
                 '}';
     }
 }
