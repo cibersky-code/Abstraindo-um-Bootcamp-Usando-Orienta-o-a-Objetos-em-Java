@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="859af8aa-2a9b-42fb-a7d4-38f6fa3344d0" name="Changes" comment="Criação do código, e classe Main e classes Mentoria e Curso.">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Bootcamp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Conteudo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Dev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Curso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Mentoria.java" afterDir="false" />
+    <list default="true" id="859af8aa-2a9b-42fb-a7d4-38f6fa3344d0" name="Changes" comment="Criação das classes: Bootcamp&#10; e Dev.">
+      <change afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Dev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dasafio-DIO-POO/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dasafio-DIO-POO/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dasafio-DIO-POO/br/dio/com/desafio/dominio/Curso.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dasafio-DIO-POO/br/dio/com/desafio/dominio/Mentoria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Bootcamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Bootcamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Conteudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Conteudo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Dev.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/dio/com/desafio/dominio/Mentoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/desafio/dominio/Mentoria.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643508727336</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criação das classes: Bootcamp&#10; e Dev.">
+      <created>1643512286379</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643512286379</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação do código, e classe Main e classes Mentoria e Curso." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do código, e classe Main e classes Mentoria e Curso." />
+    <MESSAGE value="Criação das classes: Bootcamp&#10; e Dev." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação das classes: Bootcamp&#10; e Dev." />
   </component>
 </project>

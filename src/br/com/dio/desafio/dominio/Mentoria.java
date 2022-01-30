@@ -1,17 +1,13 @@
-package br.dio.com.desafio.dominio;
+package br.com.dio.desafio.dominio;
 
 import java.time.LocalDate;
 
-/**
- * @autor: Bruno Teles
- * @version: 1.0
- */
 public class Mentoria extends Conteudo{
 
     private LocalDate data;
 
     @Override
-    public double caucularXP() {
+    public double calcularXp() {
         return XP_PADRAO + 20d;
     }
 
@@ -28,10 +24,10 @@ public class Mentoria extends Conteudo{
 
     @Override
     public String toString() {
-        return "Curso{" +
-                "titulo= '" + getTitulo() + '\'' +
-                ", descricao= '" + getDescricao() + '\'' +
-                ", data= " + data +
+        return "Mentoria{" +
+                "titulo='" + getTitulo() + '\'' +
+                ", descricao='" + getDescricao() + '\'' +
+                ", data=" + data +
                 '}';
     }
 }
